@@ -129,25 +129,25 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.WindowsMR.Editor">
-      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll</HintPath>
+      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.WindowsMR">
-      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
+      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
@@ -351,16 +351,16 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Maps.Unity">
-      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Assets/Packages/Microsoft.Maps.Unity.0.2.2/lib/unity/Map/Microsoft.Maps.Unity.dll</HintPath>
+      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Assets/Packages/Microsoft.Maps.Unity.0.2.2/lib/unity/Map/Microsoft.Maps.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

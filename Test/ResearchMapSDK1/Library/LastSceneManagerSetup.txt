@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Microsoft.Maps.Unity.Examples/CityTourExample/CityTourExample.unity
+- path: Assets/Microsoft.Maps.Unity.Examples/MapPinExample/MapPinExample.unity
   isLoaded: 1
   isActive: 1
