@@ -257,6 +257,9 @@
     <Reference Include="Microsoft.MixedReality.Toolkit.Utilities.Gltf.Importers">
       <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Utilities.Gltf.Importers.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.WindowsMR.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Core.Inspectors">
       <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Core.Inspectors.dll</HintPath>
     </Reference>
@@ -975,6 +978,10 @@
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Examples.Player.csproj">
       <Project>{00A402B2-92CC-B026-7261-3E1E45D0DAF8}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Examples.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.WindowsMR.Player.csproj">
+      <Project>{83F5DC8B-F4E3-DE24-5B63-E900B5A94812}</Project>
+      <Name>Unity.XR.WindowsMR.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -712,6 +712,10 @@
       <Project>{CB39594E-12EB-A632-3BA3-F7C22AB8CF66}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Utilities.Gltf.Importers</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.WindowsMR.Editor.csproj">
+      <Project>{D7E0F621-D98D-F122-678E-C02D028E5512}</Project>
+      <Name>Unity.XR.WindowsMR.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Inspectors.csproj">
       <Project>{41B09A26-B7C0-0D5E-6217-D487BF11C795}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Core.Inspectors</Name>
@@ -747,6 +751,10 @@
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Examples.csproj">
       <Project>{169987FF-95E6-63A3-4E7E-BEFCEB35236B}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.WindowsMR.csproj">
+      <Project>{5E11E1B3-0410-B7BD-6D16-1A513F34657C}</Project>
+      <Name>Unity.XR.WindowsMR</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj">
       <Project>{89BB9501-E8FB-460B-D3FB-FCA7F0C1A467}</Project>

@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Microsoft.Maps.Unity.Examples/CityTourExample/CityTourExample.unity
-    guid: b4b46e0ade6b15d4e82f315a6d8ef9ad
+    path: Assets/Scenes/SampleScene.unity
+    guid: 79cde906cec549249ae4bf84c5ef064e
   m_configObjects: {}

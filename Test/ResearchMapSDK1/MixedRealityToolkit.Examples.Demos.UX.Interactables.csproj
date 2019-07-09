@@ -295,9 +295,6 @@
     <Reference Include="UnityEditor.WSA.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.WSA.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.WebGL.Extensions">
-      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -305,31 +302,31 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="DotNetZip">
-      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Assets/NuGet/Editor/DotNetZip.dll</HintPath>
+      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Assets/NuGet/Editor/DotNetZip.dll</HintPath>
     </Reference>
     <Reference Include="NugetForUnity">
-      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Assets/NuGet/Editor/NugetForUnity.dll</HintPath>
+      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Assets/NuGet/Editor/NugetForUnity.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Maps.Unity">
-      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Assets/Packages/Microsoft.Maps.Unity.0.2.2/lib/unity/Map/Microsoft.Maps.Unity.dll</HintPath>
+      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Assets/Packages/Microsoft.Maps.Unity.0.2.2/lib/unity/Map/Microsoft.Maps.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Maps.Unity.Editor">
-      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Assets/Packages/Microsoft.Maps.Unity.0.2.2/lib/unity/Map/Editor/Microsoft.Maps.Unity.Editor.dll</HintPath>
+      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Assets/Packages/Microsoft.Maps.Unity.0.2.2/lib/unity/Map/Editor/Microsoft.Maps.Unity.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>D:/Coding/SWStarLab/Test/ResearchMapSDK1/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
