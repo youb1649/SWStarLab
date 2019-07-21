@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44886458, g: 0.49892712, b: 0.57570386, a: 1}
+  m_IndirectSpecularColor: {r: 0.4488641, g: 0.49892598, b: 0.5757027, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -460,7 +460,7 @@ MonoBehaviour:
   m_Script: {fileID: -194183520, guid: f58183a31672bf641bbeeaef3d4759c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bingMapsKey: 
+  _bingMapsKey: 'AlSO5o1oZ-zaJJTjvNw-DpUGqdMufCgv74l0OEjhvWvxDTB4EijRRkbq10-MCsCe '
   _showMapDataInEditor: 1
   _showDefaultCopyright: 1
   _defaultCopyrightFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class UDPResponse : MonoBehaviour {
 
-	public TextMesh textMesh = null;
+    public GameObject UDPCommGameObject;
+    public TextMesh textMesh = null;
 
 	void Start () {
 	
@@ -20,6 +21,15 @@ public class UDPResponse : MonoBehaviour {
 
 		if (textMesh != null) {
 			textMesh.text = dataString;
-		}
-	}
+        }
+
+        // UTF-8 is real
+        var dataBytes = System.Text.Encoding.UTF8.GetBytes(dataString);
+        UDPCommunication comm = UDPCommGameObject.GetComponent<UDPCommunication>();
+
+        // #if is required because SendUDPMessage() is async
+#if !UNITY_EDITOR
+			comm.SendUDPMessage(comm.externalIP, comm.externalPort, dataBytes);
+#endif
+    }
 }
