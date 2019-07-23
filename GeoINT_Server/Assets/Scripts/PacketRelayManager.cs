@@ -25,48 +25,45 @@ namespace GeoINT_Server
         }
 
         public List<NetworkConnection> lstConn = new List<NetworkConnection>();
-        public int iPort = 72681;
-        public GeoINTServerLogEvent thisEvent = null;
+        public int iPort = 7268;
+        public GeoINTServerLogEvent thisEvent = new GeoINTServerLogEvent();
 
         void InsertLog(string szMsg)
         {
 
         }
      
-        void Awake()
-        {
-            thisEvent = new GeoINTServerLogEvent();
-            thisEvent.AddListener(InsertLog);
-        }
-
         // Use this for initialization
         void Start()
         {
+            thisEvent.AddListener(InsertLog);
             NetworkServer.Listen(iPort);
             NetworkServer.RegisterHandler(MsgType.Connect, OnConnected);
             NetworkServer.RegisterHandler(MsgType.Disconnect, OnDisconnected);
             NetworkServer.RegisterHandler(MyMsgType.sMsg, OnMessageProcess);
-
+            WriteLog("Server Started !!");
         }
 
         public void OnConnected(NetworkMessage netMsg)
         {
             lstConn.Add(netMsg.conn);
-            Debug.Log("Client connected : [" + netMsg.conn.address + "]");
+            WriteLog("Connected : [" + netMsg.conn.address + "]");
         }
 
         public void OnDisconnected(NetworkMessage netMsg)
         {
             lstConn.Remove(netMsg.conn);
-            Debug.Log("Client Disconnected : [" + netMsg.conn.address + "]");
+            WriteLog("Disconnected : [" + netMsg.conn.address + "]");
         }
 
         public void OnMessageProcess(NetworkMessage netMsg)
         {
             string szTmp = netMsg.ReadMessage<StringMessage>().szMsg;
-            StringMessage sm = new StringMessage();
-            sm.szMsg = "Sent ForwardMsg to Server!";
-            netMsg.conn.Send(MyMsgType.sMsg, sm);
+            WriteLog(szTmp);
+
+            //StringMessage sm = new StringMessage();
+            //sm.szMsg = "Sent ForwardMsg to Server!";
+            //netMsg.conn.Send(MyMsgType.sMsg, sm);
         }
 
         private void WriteLog(string szMsg)

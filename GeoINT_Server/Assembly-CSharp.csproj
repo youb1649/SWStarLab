@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_2;UNITY_2018_4;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_2;UNITY_2018_4;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -60,22 +60,176 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\LogManager.cs" />
+    <Compile Include="Assets\MNF\Library\Core\AsyncIO.cs" />
+    <Compile Include="Assets\MNF\Library\Core\AsyncIO_Udp.cs" />
+    <Compile Include="Assets\MNF\Library\Core\CircularBuffer.cs" />
+    <Compile Include="Assets\MNF\Library\Core\EventNotifier.cs" />
+    <Compile Include="Assets\MNF\Library\Core\SwapableMessgeQueue.cs" />
+    <Compile Include="Assets\MNF\Library\Core\TCBforSACK.cs" />
+    <Compile Include="Assets\MNF\Library\Core\ThreadAdapter.cs" />
+    <Compile Include="Assets\MNF\Library\Crypt\AESRef.cs" />
+    <Compile Include="Assets\MNF\Library\Crypt\MD5Ref.cs" />
+    <Compile Include="Assets\MNF\Library\Helper\AcceptHelper.cs" />
+    <Compile Include="Assets\MNF\Library\Helper\ConnectHelper.cs" />
+    <Compile Include="Assets\MNF\Library\Helper\MarshalHelper.cs" />
+    <Compile Include="Assets\MNF\Library\Helper\TcpHelper.cs" />
+    <Compile Include="Assets\MNF\Library\Helper\UdpHelper.cs" />
+    <Compile Include="Assets\MNF\Library\Message\AsyncSendMessage.cs" />
+    <Compile Include="Assets\MNF\Library\Message\BinaryMessage.cs" />
+    <Compile Include="Assets\MNF\Library\Message\JsonMessage.cs" />
+    <Compile Include="Assets\MNF\Library\Message\Message.cs" />
+    <Compile Include="Assets\MNF\Library\Message\MessageFactory.cs" />
+    <Compile Include="Assets\MNF\Library\Message\UdpDatagramPool.cs" />
+    <Compile Include="Assets\MNF\Library\Message\UdpMessageHeader.cs" />
+    <Compile Include="Assets\MNF\Library\MessageDispatch\Dispatcher.cs" />
+    <Compile Include="Assets\MNF\Library\MessageDispatch\DispatcherCollection.cs" />
+    <Compile Include="Assets\MNF\Library\MessageDispatch\DispatchExporterCollection.cs" />
+    <Compile Include="Assets\MNF\Library\MessageDispatch\DispatchHelper.cs" />
+    <Compile Include="Assets\MNF\Library\MessageDispatch\DispatchInfo.cs" />
+    <Compile Include="Assets\MNF\Library\MessageDispatch\SystemMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Library\Session\SessionBase.cs" />
+    <Compile Include="Assets\MNF\Library\Session\TCPSession.cs" />
+    <Compile Include="Assets\MNF\Library\Session\UdpSession.cs" />
+    <Compile Include="Assets\MNF\Library\Utility\Cloning.cs" />
+    <Compile Include="Assets\MNF\Library\Utility\Common.cs" />
+    <Compile Include="Assets\MNF\Library\Utility\DataUpperBound.cs" />
+    <Compile Include="Assets\MNF\Library\Utility\HiPerfTimer.cs" />
+    <Compile Include="Assets\MNF\Library\Utility\IPAddressExtensions.cs" />
+    <Compile Include="Assets\MNF\Library\Utility\IPPulse.cs" />
+    <Compile Include="Assets\MNF\Library\Utility\LogManager.cs" />
+    <Compile Include="Assets\MNF\Library\Utility\LookAround.cs" />
+    <Compile Include="Assets\MNF\Library\Utility\ObjectPool.cs" />
+    <Compile Include="Assets\MNF\Library\Utility\Singleton.cs" />
+    <Compile Include="Assets\MNF\Library\Utility\stLocalAddressInfo.cs" />
+    <Compile Include="Assets\MNF\Library\Utility\Utility.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\0_Common\Common.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\0_Common\DropdownSelect.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\0_Common\inputChatMessageBox.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\0_Common\InputFieldServerIP.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\0_Common\InputFieldServerPort.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\0_Common\InputNicknameBox.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\0_Common\IScene.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\0_Common\UnityLogWriter.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\0_Common\UnitySingleton.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\10_VideoPlay\VideoPlay.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\10_VideoPlay\VideoPlayClientButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\10_VideoPlay\VideoPlayClientMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\10_VideoPlay\VideoPlayClientSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\10_VideoPlay\VideoPlayServerButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\10_VideoPlay\VideoPlayServerMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\10_VideoPlay\VideoPlayServerSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\11_MultiChat\Client\MultiChatClientButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\11_MultiChat\Client\MultiChatClientMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\11_MultiChat\Client\MultiChatClientSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\11_MultiChat\MultiChatStarterButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\11_MultiChat\Server\MultiChatServerButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\11_MultiChat\Server\MultiChatServerMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\11_MultiChat\Server\MultiChatServerSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\12_FileTrans\FileTransServerMessageDispatcher_.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\12_FileTrans\FileTransServerSession_.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\12_FileTrans\MNFServerBase.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\2_Echo\Client\EchoClientBinaryMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\2_Echo\Client\EchoClientBinarySession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\2_Echo\Client\EchoClientJsonMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\2_Echo\Client\EchoClientJsonSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\2_Echo\Client\EchoClientScene.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\2_Echo\Client\MNF_EchoClient.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\2_Echo\EchoButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\2_Echo\Server\EchoServerBinaryMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\2_Echo\Server\EchoServerBinarySession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\2_Echo\Server\EchoServerJsonMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\2_Echo\Server\EchoServerJsonSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\2_Echo\Server\EchoServerScene.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\2_Echo\Server\MNF_EchoServer.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\3_Chat\ChatButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\3_Chat\Client\BinaryChatClientScene.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\3_Chat\Client\ChatClientMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\3_Chat\Client\ChatClientSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\3_Chat\Client\MNF_ChatClient.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\3_Chat\Server\BinaryChatServerScene.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\3_Chat\Server\ChatServerMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\3_Chat\Server\ChatServerSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\3_Chat\Server\MNF_ChatServer.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\4_IL2CPP_Test\IL2CPP_Test.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\5_UNet_LLAPI\Sphere.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\5_UNet_LLAPI\UNetLLAPI_ButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\6_IPPulse\IPPulseEventTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\7_FileTrans\FileTransClientButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\7_FileTrans\FileTransClientMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\7_FileTrans\FileTransClientSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\7_FileTrans\FileTransServerButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\7_FileTrans\FileTransServerMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\7_FileTrans\FileTransServerSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\8_ScreenShare\AudioCapture.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\8_ScreenShare\AudioCapture2.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\8_ScreenShare\CubeMove.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\8_ScreenShare\ScreenCapture_EXR.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\8_ScreenShare\ScreenCapture_JPG.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\8_ScreenShare\ScreenCapture_RenderTexture.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\8_ScreenShare\ScreenShareClientButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\8_ScreenShare\ScreenShareClientMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\8_ScreenShare\ScreenShareClientSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\8_ScreenShare\ScreenShareServerButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\8_ScreenShare\ScreenShareServerMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\8_ScreenShare\ScreenShareServerSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\9_Login\DBDirector.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\9_Login\DBMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\9_Login\InterMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\9_Login\LoginClientButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\9_Login\LoginClientMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\9_Login\LoginClientSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\9_Login\LoginMessage.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\9_Login\LoginServerButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\9_Login\LoginServerMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\9_Login\LoginServerSession.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\Protocol\AES\aesBinaryMessage.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\Protocol\AES\aesJsonMessage.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\Protocol\AES\aesProtocol.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\Protocol\Crypt\CryptBinaryMessage.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\Protocol\Crypt\CryptJsonMessage.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\Protocol\Crypt\CryptProtocol.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\Protocol\Custom\CustomBinaryMessage.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\Protocol\Custom\CustomJsonMessage.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\Protocol\Custom\CustomProtocol.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\Protocol\LogWriter.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\Protocol\Protocol.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\Protocol\VideoStream\VideoStreamMessage.cs" />
+    <Compile Include="Assets\MNF\Script\Advanced\Protocol\VideoStream\VideoStreamProtocol.cs" />
+    <Compile Include="Assets\MNF\Script\Basic\1_Client\Basic_1_Client.cs" />
+    <Compile Include="Assets\MNF\Script\Basic\1_Client\Basic_1_ClientMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Basic\1_Client\Basic_1_ClientSession.cs" />
+    <Compile Include="Assets\MNF\Script\Basic\2_Server\Basic_1_Server.cs" />
+    <Compile Include="Assets\MNF\Script\Basic\2_Server\Basic_1_ServerMessageDispatcher.cs" />
+    <Compile Include="Assets\MNF\Script\Basic\2_Server\Basic_1_ServerSession.cs" />
+    <Compile Include="Assets\MNF\Script\Basic\BasicMessageDefine.cs" />
+    <Compile Include="Assets\MNF\Script\SQLite\CreateDBScript.cs" />
+    <Compile Include="Assets\MNF\Script\SQLite\DataService.cs" />
+    <Compile Include="Assets\MNF\Script\SQLite\ExistingDBScript.cs" />
+    <Compile Include="Assets\MNF\Script\SQLite\Person.cs" />
+    <Compile Include="Assets\MNF\Script\SQLite\SQLite.cs" />
+    <Compile Include="Assets\MNF\Script\StarterButtonTrigger.cs" />
+    <Compile Include="Assets\MNF\UNetLibrary\P2PController.cs" />
+    <Compile Include="Assets\Scripts\MNFServerLogManager.cs" />
+    <Compile Include="Assets\Scripts\MNFServerManager.cs" />
+    <Compile Include="Assets\Scripts\MNFServerManagerBasicMessageDefine.cs" />
+    <Compile Include="Assets\Scripts\MNFServerManagerMessageDispatcher.cs" />
+    <Compile Include="Assets\Scripts\MNFServerManagerSession.cs" />
     <Compile Include="Assets\Scripts\PacketRelayManager.cs" />
+    <None Include="Assets\MNF\link.xml" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Coding/SWStarLab/GeoINT_Server/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/SWStarLab/GeoINT_Server/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Coding/SWStarLab/GeoINT_Server/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/SWStarLab/GeoINT_Server/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Coding/SWStarLab/GeoINT_Server/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/SWStarLab/GeoINT_Server/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Coding/SWStarLab/GeoINT_Server/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/SWStarLab/GeoINT_Server/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Coding/SWStarLab/GeoINT_Server/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/SWStarLab/GeoINT_Server/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -282,13 +436,22 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Coding/SWStarLab/GeoINT_Server/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/SWStarLab/GeoINT_Server/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Coding/SWStarLab/GeoINT_Server/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/SWStarLab/GeoINT_Server/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Coding/SWStarLab/GeoINT_Server/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/SWStarLab/GeoINT_Server/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.West">
+      <HintPath>D:/SWStarLab/GeoINT_Server/Assets/MNF/Plugins/I18N.West.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N">
+      <HintPath>D:/SWStarLab/GeoINT_Server/Assets/MNF/Plugins/I18N.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>D:/SWStarLab/GeoINT_Server/Assets/MNF/Plugins/MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
