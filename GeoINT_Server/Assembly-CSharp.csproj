@@ -435,6 +435,15 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="I18N">
+      <HintPath>D:/SWStarLab/GeoINT_Server/Assets/MNF/Plugins/I18N.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.West">
+      <HintPath>D:/SWStarLab/GeoINT_Server/Assets/MNF/Plugins/I18N.West.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>D:/SWStarLab/GeoINT_Server/Assets/MNF/Plugins/MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>D:/SWStarLab/GeoINT_Server/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
@@ -443,15 +452,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>D:/SWStarLab/GeoINT_Server/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="I18N.West">
-      <HintPath>D:/SWStarLab/GeoINT_Server/Assets/MNF/Plugins/I18N.West.dll</HintPath>
-    </Reference>
-    <Reference Include="I18N">
-      <HintPath>D:/SWStarLab/GeoINT_Server/Assets/MNF/Plugins/I18N.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Data">
-      <HintPath>D:/SWStarLab/GeoINT_Server/Assets/MNF/Plugins/MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

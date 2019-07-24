@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MNF/Scenes/Basic/Basic_1_Client.unity
-    guid: 658e91a683a4943898cf1e166165bc87
+    path: Assets/Scenes/MNFServerScene.unity
+    guid: 26e34c1859fdc3048879c0f0bf1d2a3e
   m_configObjects: {}
