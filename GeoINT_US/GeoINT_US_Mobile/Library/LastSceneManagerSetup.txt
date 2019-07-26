@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Joystick Pack/Examples/Example Scene.unity
+- path: Assets/Scenes/MobileControlerScene.unity
   isLoaded: 1
   isActive: 1
