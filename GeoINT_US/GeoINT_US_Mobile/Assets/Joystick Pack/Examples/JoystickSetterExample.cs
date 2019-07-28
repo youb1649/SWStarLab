@@ -61,6 +61,7 @@ public class JoystickSetterExample : MonoBehaviour
 
     private void Update()
     {
-        valueText.text = "Current Value: " + variableJoystick.Direction;
+        valueText.text = variableJoystick.Direction.x.ToString("0.0") + "," + variableJoystick.Direction.y.ToString("0.0");
+        //valueText.text = "Current Value: " + variableJoystick.Direction;
     }
 }

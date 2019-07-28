@@ -7,6 +7,7 @@ using MNF;
 public class MNFClientManagerMessageDispatcher
     : DefaultDispatchHelper<MNFClientManagerSession, MNFClientManagerBasicMessageDefine, MNFClientManagerBasicMessageDefine.SC>
 {
+    /*
     int onHi_Client(MNFClientManagerSession session, object message)
     {
         var hiClient = (MNFClientManagerBasicMessageDefine.PACK_Hi_Client)message;
@@ -28,4 +29,5 @@ public class MNFClientManagerMessageDispatcher
 
         return 0;
     }
+    */
 }

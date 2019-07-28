@@ -242,3 +242,4 @@ D:\SWStarLab\GeoINT_Server\obj\Debug\Assembly-CSharp.pdb
 D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\I18N.dll
 D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\I18N.West.dll
 D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\MySql.Data.dll
+D:\SWStarLab\GeoINT_Server\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache

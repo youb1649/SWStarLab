@@ -51,18 +51,18 @@ public class Basic_1_Client : MonoBehaviour
 
 	public void OnHiServerSend()
 	{
-        var hiServer = new MNFServerManagerBasicMessageDefine.PACK_Hi_Server();
+        var hiServer = new BasicMessageDefine.PACK_Hi_Server();
         hiServer.msg = "Hi, Server. I'm Client.";
         var session = TcpHelper.Instance.GetFirstClient<Basic_1_ClientSession>();
-        session.AsyncSend((int)MNFServerManagerBasicMessageDefine.CS.Hi_Server, hiServer);
+        session.AsyncSend((int)BasicMessageDefine.CS.Hi_Server, hiServer);
 	}
 
 	public void OnHelloServerSend()
 	{
-		var helloServer = new MNFServerManagerBasicMessageDefine.PACK_Hello_Server();
+		var helloServer = new BasicMessageDefine.PACK_Hello_Server();
 		helloServer.msg = "Hello, Server. I'm Client.";
 		var session = TcpHelper.Instance.GetFirstClient<Basic_1_ClientSession>();
-		session.AsyncSend((int)MNFServerManagerBasicMessageDefine.CS.Hello_Server, helloServer);
+		session.AsyncSend((int)BasicMessageDefine.CS.Hello_Server, helloServer);
 	}
 
     void OnDestroy()

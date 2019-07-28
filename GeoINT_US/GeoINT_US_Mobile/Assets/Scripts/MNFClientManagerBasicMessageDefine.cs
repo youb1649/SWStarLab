@@ -3,36 +3,24 @@ public class MNFClientManagerBasicMessageDefine
 {
     public enum CS
     {
-        Hi_Server,
-        Hello_Server,
+        CS_JoystickPosition,
+        CS_Num,
     }
 
     public enum SC
     {
-        Hi_Client,
-        Hello_Client,
+        SC_JoystickPosition,
+        SC_Num,
     }
 
     [System.Serializable]
-    public class PACK_Hi_Server
+    public class PACK_CS_JoystickPosition
     {
         public string msg;
     }
 
     [System.Serializable]
-    public class PACK_Hello_Server
-    {
-        public string msg;
-    }
-
-    [System.Serializable]
-    public class PACK_Hi_Client
-    {
-        public string msg;
-    }
-
-    [System.Serializable]
-    public class PACK_Hello_Client
+    public class PACK_SC_JoystickPosition
     {
         public string msg;
     }

@@ -6,6 +6,12 @@ using MNF;
 
 public class MNFClientManager : MonoBehaviour
 {
+    public Text tmLeft = null;
+    private string szLeft = "";
+
+    public Text tmRight = null;
+    private string szRight = "";
+
     void Awake()
     {
         LogManager.Instance.SetLogWriter(new UnityLogWriter());
@@ -18,7 +24,7 @@ public class MNFClientManager : MonoBehaviour
             return;
         }
 
-        if (TcpHelper.Instance.AsyncConnect<MNFClientManagerSession, MNFClientManagerMessageDispatcher>("127.0.0.1", "10000") == null)
+        if (TcpHelper.Instance.AsyncConnect<MNFClientManagerSession, MNFClientManagerMessageDispatcher>("192.168.0.10", "10000") == null)
         {
             LogManager.Instance.WriteError("TcpHelper.Instance.AsyncConnect() failed");
             return;
@@ -30,22 +36,26 @@ public class MNFClientManager : MonoBehaviour
         TcpHelper.Instance.DipatchNetworkInterMessage();
     }
 
-    public void OnHiServerSend()
+    void FixedUpdate()
     {
-        var hiServer = new MNFClientManagerBasicMessageDefine.PACK_Hi_Server();
-        hiServer.msg = "Hi, Server. I'm Client.";
-        var session = TcpHelper.Instance.GetFirstClient<MNFClientManagerSession>();
-        session.AsyncSend((int)MNFClientManagerBasicMessageDefine.CS.Hi_Server, hiServer);
+        UpdateControlPostion();
     }
 
-    public void OnHelloServerSend()
+    void UpdateControlPostion()
     {
-        var helloServer = new MNFClientManagerBasicMessageDefine.PACK_Hello_Server();
-        helloServer.msg = "Hello, Server. I'm Client.";
-        var session = TcpHelper.Instance.GetFirstClient<MNFClientManagerSession>();
-        session.AsyncSend((int)MNFClientManagerBasicMessageDefine.CS.Hello_Server, helloServer);
-    }
+        if(szLeft != tmLeft.text || szRight != tmRight.text)
+        {
+            szLeft = tmLeft.text;
+            szRight = tmRight.text;
 
+            var varServer = new MNFClientManagerBasicMessageDefine.PACK_CS_JoystickPosition();
+            varServer.msg = szLeft +"|"+ szRight;
+            var session = TcpHelper.Instance.GetFirstClient<MNFClientManagerSession>();
+            if(null != session)
+                session.AsyncSend((int)MNFClientManagerBasicMessageDefine.CS.CS_JoystickPosition, varServer);
+        }
+    }
+       
     void OnDestroy()
     {
         Release();

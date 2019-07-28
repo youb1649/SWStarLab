@@ -272,12 +272,6 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Android.Extensions">
-      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.WSA.Extensions">
-      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.WSA.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.WebGL.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
     </Reference>
@@ -286,6 +280,15 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N">
+      <HintPath>Assets/MNF/Plugins/I18N.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.West">
+      <HintPath>Assets/MNF/Plugins/I18N.West.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>Assets/MNF/Plugins/MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>D:/SWStarLab/GeoINT_US/GeoINT_US_Mobile/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -654,6 +657,7 @@
     <Compile Include="Packages\com.unity.analytics\DataPrivacy\DataPrivacyButton.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\MNF\link.xml" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryCommon.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryDark.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryLight.uss" />

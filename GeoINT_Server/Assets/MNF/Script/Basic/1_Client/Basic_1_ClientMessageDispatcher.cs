@@ -17,7 +17,7 @@ public class Basic_1_ClientMessageDispatcher
 {
 	int onHi_Client(Basic_1_ClientSession session, object message)
 	{
-		var hiClient = (MNFServerManagerBasicMessageDefine.PACK_Hi_Client)message;
+		var hiClient = (BasicMessageDefine.PACK_Hi_Client)message;
 
         var outputField = GameObject.FindWithTag("Output").GetComponent<InputField>();
         outputField.text = hiClient.msg;
@@ -28,7 +28,7 @@ public class Basic_1_ClientMessageDispatcher
 
 	int onHello_Client(Basic_1_ClientSession session, object message)
 	{
-        var helloClient = (MNFServerManagerBasicMessageDefine.PACK_Hello_Client)message;
+        var helloClient = (BasicMessageDefine.PACK_Hello_Client)message;
 
 		var outputField = GameObject.FindWithTag("Output").GetComponent<InputField>();
 		outputField.text = helloClient.msg;
