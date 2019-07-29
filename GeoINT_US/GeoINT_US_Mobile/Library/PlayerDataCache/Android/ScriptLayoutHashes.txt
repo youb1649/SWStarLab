@@ -127,7 +127,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 f4432b639c371e0dc4755251bbc43499 Assembly-CSharp.dll:.ScreenShareServerButtonTrigger
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MNFClientManager
+013868bfac54e30f9c083dad40950d17 Assembly-CSharp.dll:.MNFClientManager
 cb19fa76a999bbd0aff12b7d9304be3b Assembly-CSharp.dll:.BinaryChatServerScene
 b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MNF_ChatServer
