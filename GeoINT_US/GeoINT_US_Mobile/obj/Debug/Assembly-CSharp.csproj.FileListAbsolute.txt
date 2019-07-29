@@ -239,7 +239,6 @@ D:\SWStarLab\GeoINT_US\GeoINT_US_Mobile\Temp\bin\Debug\UnityEngine.XRModule.xml
 D:\SWStarLab\GeoINT_US\GeoINT_US_Mobile\Temp\bin\Debug\nunit.framework.xml
 D:\SWStarLab\GeoINT_US\GeoINT_US_Mobile\Temp\bin\Debug\Vuforia.UnityExtensions.xml
 D:\SWStarLab\GeoINT_US\GeoINT_US_Mobile\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
-D:\SWStarLab\GeoINT_US\GeoINT_US_Mobile\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
 D:\SWStarLab\GeoINT_US\GeoINT_US_Mobile\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 D:\SWStarLab\GeoINT_US\GeoINT_US_Mobile\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\SWStarLab\GeoINT_US\GeoINT_US_Mobile\obj\Debug\Assembly-CSharp.dll

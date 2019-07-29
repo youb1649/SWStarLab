@@ -24,7 +24,7 @@ public class MNFClientManager : MonoBehaviour
             return;
         }
 
-        if (TcpHelper.Instance.AsyncConnect<MNFClientManagerSession, MNFClientManagerMessageDispatcher>("192.168.0.10", "10000") == null)
+        if (TcpHelper.Instance.AsyncConnect<MNFClientManagerSession, MNFClientManagerMessageDispatcher>("127.0.0.1", "10001") == null)
         {
             LogManager.Instance.WriteError("TcpHelper.Instance.AsyncConnect() failed");
             return;

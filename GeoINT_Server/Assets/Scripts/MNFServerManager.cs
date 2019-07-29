@@ -26,20 +26,20 @@ public class MNFServerManager : MonoBehaviour
         if (LogManager.Instance.Init() == false)
         {
             Debug.Log("LogWriter init failed");
-            WriteLog("LogWriter init failed");
+            //WriteLog("LogWriter init failed");
         }
 
         if (TcpHelper.Instance.Start(isRunThread: false) == false)
         {
             LogManager.Instance.WriteError("TcpHelper.Instance.run() failed");
-            WriteLog("TcpHelper.Instance.run() failed");
+            //WriteLog("TcpHelper.Instance.run() failed");
             return;
         }
 
-        if (TcpHelper.Instance.StartAccept<MNFServerManagerSession, MNFServerManagerMessageDispatcher>("10000", 500) == false)
+        if (TcpHelper.Instance.StartAccept<MNFServerManagerSession, MNFServerManagerMessageDispatcher>("10001", 500) == false)
         {
             LogManager.Instance.WriteError("TcpHelper.Instance.StartAccept<MNFServerManagerSession, MNFServerManagerMessageDispatcher>() failed");
-            WriteLog("TcpHelper.Instance.StartAccept<MNFServerManagerSession, MNFServerManagerMessageDispatcher>() failed");
+            //WriteLog("TcpHelper.Instance.StartAccept<MNFServerManagerSession, MNFServerManagerMessageDispatcher>() failed");
             return;
         }
     }

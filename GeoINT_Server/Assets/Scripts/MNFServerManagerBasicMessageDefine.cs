@@ -3,13 +3,11 @@
     public enum CS
     {
         CS_JoystickPosition,
-        CS_Num,
     }
 
     public enum SC
     {
         SC_JoystickPosition,
-        SC_Num,
     }
 
     [System.Serializable]

@@ -1,7 +1,10 @@
 D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\Assembly-CSharp.dll
 D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\I18N.dll
+D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\I18N.West.dll
 D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
 D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\mscorlib.dll
+D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\MySql.Data.dll
 D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\netstandard.dll
 D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\nunit.framework.dll
 D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\System.AppContext.dll
@@ -239,7 +242,3 @@ D:\SWStarLab\GeoINT_Server\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.ca
 D:\SWStarLab\GeoINT_Server\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\SWStarLab\GeoINT_Server\obj\Debug\Assembly-CSharp.dll
 D:\SWStarLab\GeoINT_Server\obj\Debug\Assembly-CSharp.pdb
-D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\I18N.dll
-D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\I18N.West.dll
-D:\SWStarLab\GeoINT_Server\Temp\bin\Debug\MySql.Data.dll
-D:\SWStarLab\GeoINT_Server\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
