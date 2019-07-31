@@ -24,13 +24,13 @@ public class UDPMessageEvent : UnityEvent<string, string, byte[]>
 public class UDPCommunication : MonoBehaviour
 {
 	[Tooltip ("Port to open on HoloLens to send or listen")]
-	public string internalPort = "11001";
+	public string internalPort = "5395";
 
 	[Tooltip("IP address to send to")]
 	public string externalIP = "192.168.0.134";
 
 	[Tooltip("Port to send to")]
-	public string externalPort = "11002";
+	public string externalPort = "5394";
 
 	[Tooltip("Send a message on startup")]
 	public bool sendPingAtStart = true;

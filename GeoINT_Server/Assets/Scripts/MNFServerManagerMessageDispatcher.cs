@@ -10,12 +10,13 @@ public class MNFServerManagerMessageDispatcher
         var varServer = (MNFServerManagerBasicMessageDefine.PACK_CS_JoystickPosition)message;
 
         MNFServerLogManager logboard = GameObject.FindWithTag("LogBoard").GetComponent<MNFServerLogManager>();
-        logboard.InsertLog(varServer.msg);
-        Debug.Log(varServer.msg);
+        if (null != logboard)
+            logboard.InsertLog(varServer.msg);
 
-        //var hiClient = new MNFServerManagerBasicMessageDefine.PACK_CS_JoystickPosition();
-        //hiClient.msg = "Hi, Client. I'm Server.";
-        //session.AsyncSend((int)MNFServerManagerBasicMessageDefine.CS.CS_JoystickPosition, hiClient);
+        UDPManager udpmanager = GameObject.FindWithTag("UdpManager").GetComponent<UDPManager>();
+        if (null != udpmanager)
+            udpmanager.SendMsg(varServer.msg);
+
         return 0;
     }
 }

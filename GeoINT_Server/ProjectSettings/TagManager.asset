@@ -8,6 +8,7 @@ TagManager:
   - RawImage
   - EventSystem
   - LogBoard
+  - UdpManager
   layers:
   - Default
   - TransparentFX

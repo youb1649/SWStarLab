@@ -200,12 +200,12 @@ PrefabInstance:
     - target: {fileID: 114381507436461726, guid: c21974804d13d6c428a6227b2f98acfd,
         type: 3}
       propertyPath: internalPort
-      value: 11001
+      value: 5395
       objectReference: {fileID: 0}
     - target: {fileID: 114381507436461726, guid: c21974804d13d6c428a6227b2f98acfd,
         type: 3}
       propertyPath: externalPort
-      value: 11002
+      value: 5394
       objectReference: {fileID: 0}
     - target: {fileID: 114381507436461726, guid: c21974804d13d6c428a6227b2f98acfd,
         type: 3}
@@ -765,12 +765,12 @@ PrefabInstance:
     - target: {fileID: 114381507436461726, guid: c21974804d13d6c428a6227b2f98acfd,
         type: 3}
       propertyPath: externalPort
-      value: 11002
+      value: 5394
       objectReference: {fileID: 0}
     - target: {fileID: 114381507436461726, guid: c21974804d13d6c428a6227b2f98acfd,
         type: 3}
       propertyPath: internalPort
-      value: 11001
+      value: 5395
       objectReference: {fileID: 0}
     - target: {fileID: 4143569445316468, guid: c21974804d13d6c428a6227b2f98acfd, type: 3}
       propertyPath: m_LocalPosition.x

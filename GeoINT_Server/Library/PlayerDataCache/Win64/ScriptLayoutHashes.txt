@@ -268,6 +268,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 6d680255805db4339eab5a0e3e0032b7 Assembly-CSharp.dll:.ScreenCapture_EXR
 b1df84da0ea4e9f6747a2f80bba77634 Assembly-CSharp.dll:.MultiChatClientButtonTrigger
 2678e4d04335dfadb1af10eef9c07953 Assembly-CSharp.dll:.BinaryChatClientScene
+efa2c03884726e43165a339e2adecd7b Assembly-CSharp.dll:.UDPManager
 ee0cef6caaac8ae485bfa82f000f0f7b Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 91de65d6f9c2761789cd99c8380a326b Assembly-CSharp.dll:.ScreenShareClientButtonTrigger

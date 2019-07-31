@@ -215,6 +215,7 @@
     <Compile Include="Assets\Scripts\MNFServerManagerMessageDispatcher.cs" />
     <Compile Include="Assets\Scripts\MNFServerManagerSession.cs" />
     <Compile Include="Assets\Scripts\PacketRelayManager.cs" />
+    <Compile Include="Assets\Scripts\UDPManager.cs" />
     <None Include="Assets\MNF\link.xml" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/SWStarLab/GeoINT_Server/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
